@@ -48,3 +48,26 @@ body {
      flex-direction: column;
      gap: 15px;
  }
+
+ input,
+ textarea,
+ select {
+     padding: 14px;
+     border: none;
+     border-radius: 10px;
+     outline: none;
+ }
+
+ textarea {
+     height: 100px;
+     resize: none;
+ }
+
+ form button {
+     padding: 14px;
+     border: none;
+     border-radius: 10px;
+     background: #06b6d4;
+     color: white;
+     cursor: pointer;
+}
