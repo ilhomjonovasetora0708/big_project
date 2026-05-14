@@ -98,3 +98,29 @@ body {
     border-radius: 10px;
     cursor: pointer; 
 }
+.active {
+    background: #3b82f6;
+    color: white;
+}
+
+.task-item {
+    background: #334155;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.task-content h3 {
+    margin-bottom: 10px;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
