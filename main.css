@@ -124,3 +124,29 @@ body {
     border-radius: 20px;
     font-size: 13px;
 }
+.high {
+    background: red;
+}
+
+.medium {
+    background: orange;
+}
+
+.low {
+    background: green;
+}
+
+.task-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.complete-btn {
+    background: #10b981;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer; 
+}
