@@ -150,3 +150,21 @@ body {
     color: white;
     cursor: pointer; 
 }
+.delete-btn {
+    background: #ef4444;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.light {
+    background: #f1f5f9;
+    color: black;
+}
